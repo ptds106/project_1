@@ -2,6 +2,7 @@
 var totalAmountOfMoney, totalAmountofBet, bet, rand, li, seconds, bettingAmountArray, bettingNumberArray, totalBet,betObject, win, first21, second21, third21, totalProfit, currentBetMoney, numberArray, usedMoney;
 
 //cache
+var gameOver = document.getElementById('gameOver');
 var number = document.getElementById('number');
 var lists = document.getElementById('lists');
 var money1 = document.getElementsByClassName('money1');
@@ -35,22 +36,20 @@ chip5.addEventListener("click", chipSelected);
 
 
 win = 0;
-totalBet = 0;
 totalProfit = 0;
+totalBet = 0;
+usedMoney = 0;
 
 init();
-
-//reset the wallet and chip
-
-// bet2.textContent = chip1.textContent;
 function init() {
     totalAmountOfMoney = 1000;
     betObject = {};
     renderInit();
+    gameOver.style.display = 'none'
 }
 
 function resets(){  
-    totalAmountOfMoney = totalAmountOfMoney + totalBet + win;
+    totalAmountOfMoney = totalBet + totalAmountOfMoney;
     totalBet = 0;
     betObject = {}
     renderInit();
@@ -58,6 +57,7 @@ function resets(){
 
 //renders wallet
 function renderInit() {
+
     bet2[0].textContent = totalAmountofBet;
     bet1[0].textContent = bet;
     money1[0].textContent = totalAmountOfMoney;
@@ -78,7 +78,7 @@ function payOut (){
         win += betObject['odd'] * 2;
         win += betObject['black'] * 2;
     }
-    if(betObject['1st 12'] !== undefined && rand < 13) {
+    if(betObject['1st 12'] !== undefined && (rand > 0 && rand < 13)) {
         win += betObject['1st 12'] * 3;
     }
     if(betObject['2nd 12'] !== undefined && (rand < 25  && rand > 12)) {
@@ -122,8 +122,6 @@ function payOut (){
         usedMoney += Number(Object.values(betObject)[i])
     }
     totalProfit = win - usedMoney;
-    console.log(usedMoney)
-    console.log(totalProfit)
     renderInit();
 }
 // chip1.textContent;
@@ -142,14 +140,10 @@ function generateNumber() {
 
 //renders picks
 function numberSelected() {
-    totalBet = 0;
-    if(totalAmountOfMoney - Number(selectedChip) >= 0 && event.target.textContent.length < 8) {
-        
-        if(betObject[event.target.textContent] === undefined)
-        {
+     if(totalAmountOfMoney - Number(selectedChip) >= 0 && event.target.textContent.length < 8) {
+        if(betObject[event.target.textContent] === undefined) {
             betObject[event.target.textContent] = Number(selectedChip);
-        }
-        else {
+        } else {
             betObject[event.target.textContent] += Number(selectedChip)
         }
         totalAmountOfMoney -= Number(selectedChip);
@@ -189,7 +183,16 @@ function incrementSeconds() {
         payOut();
         betObject = {};
     }
+    if(seconds === 11 && totalAmountOfMoney < 10)
+    {
+        renderGameOver();
+    }
     renderClock();
+}
+function renderGameOver () {
+    gameOver.style.display = 'block'
+    gameOver.textContent = 'Not enough money, click on Game Over button on right top';
+   reset.disabled = true;
 }
 //renders latest states of randomly generated numbers
 function renderNumber() {
@@ -217,16 +220,3 @@ function renderClock() {
     timer.textContent = "Bet starts in: " + seconds + " sec.";
 }
 
-// function renderMessage(string) {
-//        message.innerText = "Your profit of last spin $" + string
-// }
-// // }
-// lose()
-// show lose message
-// if no money left, calls nomoney()
-// if money left, calls playAgain()
-// calls render()
-
-
-// outofMoney()
-// calls init()
