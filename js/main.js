@@ -98,7 +98,7 @@ function payOut (){
     }
     for(let i = 0; i < numberArray.length; i++) {
         if(betObject[numberArray[i]] !== undefined && rand === i){
-            win += betObject[NumberArray[i]] * 36;
+            win += betObject[numberArray[i]] * 36;
         }
     }
     for(let i = 1; i < numberArray.length; i+=3) {
@@ -128,6 +128,7 @@ function payOut (){
 }
 // chip1.textContent;
 function chipSelected() {
+    selectedChip = event.target.textContent;
     mainRender();
 }
 
