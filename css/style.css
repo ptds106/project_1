@@ -110,7 +110,6 @@
   color: pink;
   font-weight: bold;
 }
-
 .newGame{
   position: absolute;
   top: 1vw;
@@ -126,36 +125,33 @@
   cursor: pointer;
 }
 header{
-    display: flexbox;
-    text-align: center;
-    justify-content: center;
-    font-size: 1.8vw;
-    border: 0.2vw dashed pink;
-    padding: 1.2vw 1.2vw;
-    color: pink;
-    
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.8vw;
+  border: 0.2vw dashed pink;
+  padding: 1.2vw 1.2vw;
+  color: pink;
 }
 .instruction{
-    font-size: 1.8vw;
-    color: pink;
-    padding: 0vw 2vw 0vw 2vw;
+  font-size: 1.8vw;
+  color: pink;
+  padding: 0vw 2vw 0vw 2vw;
 }
-
 body{
-    background-color:rgb(34, 19, 10);
-    margin: 0vw 0vw 0vw 0vw;
+  background-color:rgb(34, 19, 10);
+  margin: 0vw 0vw 0vw 0vw;
 }
-
 .chip{
-    position: absolute;
-    bottom: 15.3vw;
-    left: 0vw;
-    margin: 0vw 0vw;
-    border-top: 0.1vw solid #2B1E16;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 12fr;
-    grid-template-areas: 
-    "chip1 chip2 chip3 chip4 chip5 .";
+  position: absolute;
+  bottom: 15.3vw;
+  left: 0vw;
+  margin: 0vw 0vw;
+  border-top: 0.1vw solid #2B1E16;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 12fr;
+  grid-template-areas: 
+  "chip1 chip2 chip3 chip4 chip5 .";
 }
 .money{
   position: absolute;
@@ -171,421 +167,418 @@ body{
   margin: 0vw 0vw 0vw 0vw;
 }
 #chip1 {
-    margin: 2vw 0vw 0vw 1.7vw;
-    width: 2.5vw;
-    height: 2.5vw;
-    border: 0.8vw dashed black;
-    border-radius: 50%;
-    line-height: 2.5vw;
-    text-align: center;
-    color: rgb(17, 1, 1);
-    background-color: red;
-    outline: 0.1vw solid rgb(34, 19, 10);
+  margin: 2vw 0vw 0vw 1.7vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 0.8vw dashed black;
+  border-radius: 50%;
+  line-height: 2.5vw;
+  text-align: center;
+  color: rgb(17, 1, 1);
+  background-color: red;
+  outline: 0.1vw solid rgb(34, 19, 10);
 }
   #chip2 {
-    margin: 2vw 0vw 0vw 1.7vw;
-    width: 2.5vw;
-    height: 2.5vw;
-    border: 0.8vw dashed rgb(185, 231, 59);
-    border-radius: 50%;
-    line-height: 2.5vw;
-    text-align: center;
-    font-family: Helvetica;
-    color: rgb(206, 184, 184);
-    background-color: rgb(79, 0, 99);
-    outline: 0.1vw solid rgb(34, 19, 10);
-  }
+  margin: 2vw 0vw 0vw 1.7vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 0.8vw dashed rgb(185, 231, 59);
+  border-radius: 50%;
+  line-height: 2.5vw;
+  text-align: center;
+  font-family: Helvetica;
+  color: rgb(206, 184, 184);
+  background-color: rgb(79, 0, 99);
+  outline: 0.1vw solid rgb(34, 19, 10);
+}
   #chip3 {
-    margin: 2vw 0vw 0vw 1.7vw;
-    width: 2.5vw;
-    height: 2.5vw;
-    border: 0.8vw dashed rgb(3, 165, 52);
-    border-radius: 50%;
-    line-height: 2.5vw;
-    text-align: center;
-    font-family: Helvetica;
-    color: rgb(206, 184, 184);
-    background-color: rgb(19, 7, 7);
-    outline: 0.1vw solid rgb(34, 19, 10);
-  }
+  margin: 2vw 0vw 0vw 1.7vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 0.8vw dashed rgb(3, 165, 52);
+  border-radius: 50%;
+  line-height: 2.5vw;
+  text-align: center;
+  font-family: Helvetica;
+  color: rgb(206, 184, 184);
+  background-color: rgb(19, 7, 7);
+  outline: 0.1vw solid rgb(34, 19, 10);
+}
   #chip4 {
-    margin: 2vw 0vw 0vw 1.7vw;
-    width: 2.5vw;
-    height: 2.5vw;
-    border: 0.8vw dashed rgb(134, 3, 46);
-    border-radius: 50%;
-    line-height: 2.5vw;
-    text-align: center;
-    font-family: Helvetica;
-    color: rgb(226, 218, 218);
-    background-color: rgb(77, 3, 3);
-    outline: 0.1vw solid rgb(34, 19, 10);
-  }
+  margin: 2vw 0vw 0vw 1.7vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 0.8vw dashed rgb(134, 3, 46);
+  border-radius: 50%;
+  line-height: 2.5vw;
+  text-align: center;
+  font-family: Helvetica;
+  color: rgb(226, 218, 218);
+  background-color: rgb(77, 3, 3);
+  outline: 0.1vw solid rgb(34, 19, 10);
+}
   #chip5 {
-    margin: 2vw 0vw 0vw 1.7vw;
-    width: 2.5vw;
-    height: 2.5vw;
-    border: 0.8vw dashed rgb(125, 168, 216);
-    border-radius: 50%;
-    line-height: 2.5vw;
-    text-align: center;
-    font-family: Helvetica;
-    color: rgb(17, 1, 1);
-    background-color: rgb(240, 233, 233);
-    outline: 0.1vw solid rgb(34, 19, 10);
-  }
+  margin: 2vw 0vw 0vw 1.7vw;
+  width: 2.5vw;
+  height: 2.5vw;
+  border: 0.8vw dashed rgb(125, 168, 216);
+  border-radius: 50%;
+  line-height: 2.5vw;
+  text-align: center;
+  font-family: Helvetica;
+  color: rgb(17, 1, 1);
+  background-color: rgb(240, 233, 233);
+  outline: 0.1vw solid rgb(34, 19, 10);
+}
 .table{
-    position: absolute;
-    bottom: 0.1em;
-    right: 0vw;
-    width: 100%;
-    margin: 1.8vw 0vw 0vw 0vw;
-    grid: 0vw 0vw 0vw 0vw;
-    border: 0vw 0vw 0vw 0vw;
-    background-color: #477148;
-    border: 0.2em solid #160F0B; 
-    border-radius: 2vw;
-    color: white;
-    text-align: center;
-    padding: 1.3vw 0vw;
-    font-size: 1.8vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    ". three six nine twelve fifteen eighteen twentyOne twentyFour twentySeven thirty thirtyThree thirtySix firstTwoToOne"
-    "zero two five eight eleven fourteen seventeen twenty twentyThree twentySix twentyNine thirtyTwo thirtyFive secondTwoToOne"
-    "double one four seven ten thirteen sixteen nineteen twentyTwo twentyFive twentyEight thirtyOne thirtyFour thirdTwoToOne"
-    ". first first first first second second second second third third third third ."
-    ". firstEighteen firstEighteen even even red red black black odd odd lastEighteen lastEighteen .";
+  position: absolute;
+  bottom: 0.1em;
+  right: 0vw;
+  width: 100%;
+  margin: 1.8vw 0vw 0vw 0vw;
+  grid: 0vw 0vw 0vw 0vw;
+  border: 0vw 0vw 0vw 0vw;
+  background-color: #477148;
+  border: 0.2em solid #160F0B; 
+  border-radius: 2vw;
+  color: white;
+  text-align: center;
+  padding: 1.3vw 0vw;
+  font-size: 1.8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 
+  ". three six nine twelve fifteen eighteen twentyOne twentyFour twentySeven thirty thirtyThree thirtySix firstTwoToOne"
+  "zero two five eight eleven fourteen seventeen twenty twentyThree twentySix twentyNine thirtyTwo thirtyFive secondTwoToOne"
+  "double one four seven ten thirteen sixteen nineteen twentyTwo twentyFive twentyEight thirtyOne thirtyFour thirdTwoToOne"
+  ". first first first first second second second second third third third third ."
+  ". firstEighteen firstEighteen even even red red black black odd odd lastEighteen lastEighteen .";
 }
 .zero{
-    grid-area: zero;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: zero;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .double{
-    grid-area: double;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: double;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .one{
-    grid-area: one;
-    border-radius: 50%;
-    background-color: black;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: one;
+  border-radius: 50%;
+  background-color: black;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .two{
-    grid-area: two;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: two;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .three{
-    grid-area: three;
-    border-radius: 50%;
-    background-color: black;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: three;
+  border-radius: 50%;
+  background-color: black;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .four{
-    border-radius: 50%;
-    background-color: red;
-    grid-area: four;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: red;
+  grid-area: four;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .five{
-
-    border-radius: 50%;
-    background-color: black;
-    grid-area: five;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: five;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .six{
-
-    grid-area: six;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: six;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .seven{
-
-    border-radius: 50%;
-    background-color: black;
-    grid-area: seven;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: seven;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .eight{
-    grid-area: eight;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: eight;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .nine{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: nine;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: nine;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .ten{
-    grid-area: ten;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: ten;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .eleven{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: eleven;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: eleven;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twelve{
-    grid-area: twelve;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: twelve;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirteen{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: thirteen;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: thirteen;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .fourteen{
-    grid-area: fourteen;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: fourteen;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .fifteen{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: fifteen;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: fifteen;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .sixteen{
-    grid-area: sixteen;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: sixteen;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .seventeen{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: seventeen;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: seventeen;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .eighteen{
-    grid-area: eighteen;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: eighteen;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .nineteen{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: nineteen;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: nineteen;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twenty{
-    grid-area: twenty;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: twenty;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentyOne{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: twentyOne;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;}
+  border-radius: 50%;
+  background-color: black;
+  grid-area: twentyOne;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;}
 .twentyTwo{
-    grid-area: twentyTwo;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: twentyTwo;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
   }
 .twentyThree{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: twentyThree;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: twentyThree;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentyFour{
-    grid-area: twentyFour;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: twentyFour;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentyFive{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: twentyFive;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: twentyFive;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentySix{
-    grid-area: twentySix;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: twentySix;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentySeven{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: twentySeven;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: twentySeven;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentyEight{
-    grid-area: twentyEight;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: twentyEight;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .twentyNine{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: twentyNine;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;    
+  border-radius: 50%;
+  background-color: black;
+  grid-area: twentyNine;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;    
 }
 .thirty{
-    grid-area: thirty;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: thirty;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirtyOne{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: thirtyOne;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: thirtyOne;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirtyTwo{
-    grid-area: thirtyTwo;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: thirtyTwo;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirtyThree{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: thirtyThree;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
-  }
+  border-radius: 50%;
+  background-color: black;
+  grid-area: thirtyThree;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
+}
 .thirtyFour{
-    grid-area: thirtyFour;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: thirtyFour;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirtyFive{
-    border-radius: 50%;
-    background-color: black;
-    grid-area: thirtyFive;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border-radius: 50%;
+  background-color: black;
+  grid-area: thirtyFive;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirtySix{
-    grid-area: thirtySix;
-    border-radius: 50%;
-    background-color: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: thirtySix;
+  border-radius: 50%;
+  background-color: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .firstTwoToOne{
-    border:1px solid white;
-    grid-area: firstTwoToOne;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  border:1px solid white;
+  grid-area: firstTwoToOne;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .secondTwoToOne{
-    grid-area: secondTwoToOne;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: secondTwoToOne;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .thirdTwoToOne{
-    grid-area: thirdTwoToOne;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: thirdTwoToOne;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .first{
-    grid-area: first;
-    outline: 1px solid white;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: first;
+  outline: 1px solid white;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .second{
-    grid-area: second;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: second;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .third{
-    grid-area: third;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: third;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .even{
-    grid-area: even;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: even;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .odd{
-    grid-area: odd;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area: odd;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .red{
-    background-color: red;
-    grid-area: red;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  background-color: red;
+  grid-area: red;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .black{
-    background-color: black;
-    grid-area: black;
-    color: white;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  background-color: black;
+  grid-area: black;
+  color: white;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .firstEighteen{
-    grid-area:firstEighteen;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area:firstEighteen;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .lastEighteen{
-    grid-area:lastEighteen;
-    border: 0.1vw solid white;    
-    outline: 0.1vw solid white;
+  grid-area:lastEighteen;
+  border: 0.1vw solid white;    
+  outline: 0.1vw solid white;
 }
 .circle111 {
   position: absolute;
@@ -1066,20 +1059,19 @@ body{
   border-top-right-radius: 10vw;  
   animation: spin33 1.0s infinite linear;    
 }
-  .circle34 {
-    position: absolute;
-    bottom: 25vw;
-    left: 11.5vw;
-    width: 0vw;
-    height: 1vw;
-    border-right: 10.52px solid transparent;
-    border-top: 7vw solid black;
-    border-left: 10.52px solid transparent;
-    border-bottom: 7vw solid transparent;
-    border-top-left-radius: 10vw;
-    border-top-right-radius: 10vw;
-      animation: spin34 1.0s infinite linear;
-  ;
+.circle34 {
+  position: absolute;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
+  border-right: 10.52px solid transparent;
+  border-top: 7vw solid black;
+  border-left: 10.52px solid transparent;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin34 1.0s infinite linear;
 }
 .circle35 {
   position: absolute;
@@ -1136,1100 +1128,318 @@ body{
   border-top-left-radius: 10vw;
   border-top-right-radius: 10vw;  
   animation: spin00 1.0s infinite linear;    
-} 
-/* animations */
- 
+}
 @keyframes spin111 {
   0% {
-  -moz-transform:rotate(369.47deg);
-  -webkit-transform:rotate(369.47deg);
-  -o-transform:rotate(369.47deg);
-  -ms-transform:rotate(369.47deg);
+    transform:rotate(369.47deg);
   }
   100% {
-  -moz-transform:rotate(360deg);
-  -webkit-transform:rotate(360deg);
-  -o-transform:rotate(360deg);
-  -ms-transform:rotate(360deg); 
+  ms-transform:rotate(360deg); 
   }
 }
-@-webkit-keyframes spin111 {  
-  0% {
-      -moz-transform:rotate(369.47deg);
-      -webkit-transform:rotate(369.47deg);
-      -o-transform:rotate(369.47deg);
-      -ms-transform:rotate(369.47deg);
-      }
-      100% {
-      -moz-transform:rotate(360deg);
-      -webkit-transform:rotate(360deg);
-      -o-transform:rotate(360deg);
-      -ms-transform:rotate(360deg); 
-      }
-    } 
  @keyframes spin1 {
   0% {
-  -moz-transform:rotate(9.47deg);
-  -webkit-transform:rotate(9.47deg);
-  -o-transform:rotate(9.47deg);
-  -ms-transform:rotate(9.47deg);
+  transform:rotate(9.47deg);
   }
   100% {
-  -moz-transform:rotate(369.47deg);
-  -webkit-transform:rotate(369.47deg);
-  -o-transform:rotate(369.47deg);
-  -ms-transform:rotate(369.47deg); 
-  }
-}
-@-webkit-keyframes spin1 {
-  0% {
-  -moz-transform:rotate(9.47deg);
-  -webkit-transform:rotate(9.47deg);
-  -o-transform:rotate(9.47deg);
-  -ms-transform:rotate(9.47deg);
-  }
-  100% {
-  -moz-transform:rotate(369.47deg);
-  -webkit-transform:rotate(369.47deg);
-  -o-transform:rotate(369.47deg);
-  -ms-transform:rotate(369.47deg); 
+    transform:rotate(369.47deg); 
   }
 }
 @keyframes spin2 {
   0% {
-  -moz-transform:rotate(18.94deg);
-  -webkit-transform:rotate(18.94deg);
-  -o-transform:rotate(18.94deg);
-  -ms-transform:rotate(18.94deg);
+   transform:rotate(18.94deg);
   }
   100% {
-  -moz-transform:rotate(378.94deg);
-  -webkit-transform:rotate(378.94deg);
-  -o-transform:rotate(378.94deg);
-  -ms-transform:rotate(378.94deg); 
-  }
-}
-@-webkit-keyframes spin2 {
-  0% {
-  -moz-transform:rotate(18.94deg);
-  -webkit-transform:rotate(18.94deg);
-  -o-transform:rotate(18.94deg);
-  -ms-transform:rotate(18.94deg);
-  }
-  100% {
-  -moz-transform:rotate(378.94deg);
-  -webkit-transform:rotate(378.94deg);
-  -o-transform:rotate(378.94deg);
-  -ms-transform:rotate(378.94deg); 
+    transform:rotate(378.94deg); 
   }
 }
 @keyframes spin3 {
   0% {
-  -moz-transform:rotate(28.41deg);
-  -webkit-transform:rotate(28.41deg);
-  -o-transform:rotate(28.41deg);
-  -ms-transform:rotate(28.41deg);
+   transform:rotate(28.41deg);
   }
   100% {
-  -moz-transform:rotate(388.41deg);
-  -webkit-transform:rotate(388.41deg);
-  -o-transform:rotate(388.41deg);
-  -ms-transform:rotate(388.41deg); 
+    transform:rotate(388.41deg); 
   }
 }
-@-webkit-keyframes spin3 {
-  0% {
-  -moz-transform:rotate(28.41deg);
-  -webkit-transform:rotate(28.41deg);
-  -o-transform:rotate(28.41deg);
-  -ms-transform:rotate(28.41deg);
-  }
-  100% {
-  -moz-transform:rotate(388.41deg);
-  -webkit-transform:rotate(388.41deg);
-  -o-transform:rotate(388.41deg);
-  -ms-transform:rotate(388.41deg); 
-  }
-}  
  @keyframes spin4 {
   0% {
-  -moz-transform:rotate(37.88deg);
-  -webkit-transform:rotate(37.88deg);
-  -o-transform:rotate(37.88deg);
-  -ms-transform:rotate(37.88deg);
+   transform:rotate(37.88deg);
   }
   100% {
-  -moz-transform:rotate(397.88deg);
-  -webkit-transform:rotate(397.88deg);
-  -o-transform:rotate(397.88deg);
-  -ms-transform:rotate(397.88deg); 
+    transform:rotate(397.88deg); 
   }
 }
-@-webkit-keyframes spin4 {
-  0% {
-  -moz-transform:rotate(37.88deg);
-  -webkit-transform:rotate(37.88deg);
-  -o-transform:rotate(37.88deg);
-  -ms-transform:rotate(37.88deg);
-  }
-  100% {
-  -moz-transform:rotate(397.88deg);
-  -webkit-transform:rotate(397.88deg);
-  -o-transform:rotate(397.88deg);
-  -ms-transform:rotate(397.88deg); 
-  }
-}  
  @keyframes spin5 {
   0% {
-  -moz-transform:rotate(47.35deg);
-  -webkit-transform:rotate(47.35deg);
-  -o-transform:rotate(47.35deg);
-  -ms-transform:rotate(47.35deg);
+   transform:rotate(47.35deg);
   }
   100% {
-  -moz-transform:rotate(407.35deg);
-  -webkit-transform:rotate(407.35deg);
-  -o-transform:rotate(407.35deg);
-  -ms-transform:rotate(407.35deg); 
+    transform:rotate(407.35deg); 
   }
 }
-@-webkit-keyframes spin5 {
-  0% {
-  -moz-transform:rotate(47.35deg);
-  -webkit-transform:rotate(47.35deg);
-  -o-transform:rotate(47.35deg);
-  -ms-transform:rotate(47.35deg);
-  }
-  100% {
-  -moz-transform:rotate(407.35deg);
-  -webkit-transform:rotate(407.35deg);
-  -o-transform:rotate(407.35deg);
-  -ms-transform:rotate(407.35deg); 
-  }
-} 
 @keyframes spin6 {
   0% {
-  -moz-transform:rotate(56.82deg);
-  -webkit-transform:rotate(56.82deg);
-  -o-transform:rotate(56.82deg);
-  -ms-transform:rotate(56.82deg);
+   transform:rotate(56.82deg);
   }
   100% {
-  -moz-transform:rotate(416.82deg);
-  -webkit-transform:rotate(416.82deg);
-  -o-transform:rotate(416.82deg);
-  -ms-transform:rotate(416.82deg); 
+    transform:rotate(416.82deg); 
   }
 }
-@-webkit-keyframes spin6 {
-  0% {
-  -moz-transform:rotate(56.82deg);
-  -webkit-transform:rotate(56.82deg);
-  -o-transform:rotate(56.82deg);
-  -ms-transform:rotate(56.82deg);
-  }
-  100% {
-  -moz-transform:rotate(416.82deg);
-  -webkit-transform:rotate(416.82deg);
-  -o-transform:rotate(416.82deg);
-  -ms-transform:rotate(416.82deg); 
-  }
-} 
 @keyframes spin7 {
   0% {
-  -moz-transform:rotate(66.29deg);
-  -webkit-transform:rotate(66.29deg);
-  -o-transform:rotate(66.29deg);
-  -ms-transform:rotate(66.29deg);
+   transform:rotate(66.29deg);
   }
   100% {
-  -moz-transform:rotate(426.29deg);
-  -webkit-transform:rotate(426.29deg);
-  -o-transform:rotate(426.29deg);
-  -ms-transform:rotate(426.29deg); 
+    transform:rotate(426.29deg); 
   }
 }
-@-webkit-keyframes spin7 {
-  0% {
-  -moz-transform:rotate(66.29deg);
-  -webkit-transform:rotate(66.29deg);
-  -o-transform:rotate(66.29deg);
-  -ms-transform:rotate(66.29deg);
-  }
-  100% {
-  -moz-transform:rotate(426.29deg);
-  -webkit-transform:rotate(426.29deg);
-  -o-transform:rotate(426.29deg);
-  -ms-transform:rotate(426.29deg); 
-  }
-} 
 @keyframes spin8 {
   0% {
-  -moz-transform:rotate(75.76deg);
-  -webkit-transform:rotate(75.76deg);
-  -o-transform:rotate(75.76deg);
-  -ms-transform:rotate(75.76deg);
+   transform:rotate(75.76deg);
   }
   100% {
-  -moz-transform:rotate(435.76deg);
-  -webkit-transform:rotate(435.76deg);
-  -o-transform:rotate(435.76deg);
-  -ms-transform:rotate(435.76deg); 
+    transform:rotate(435.76deg); 
   }
 }
-@-webkit-keyframes spin8 {
-  0% {
-  -moz-transform:rotate(75.76deg);
-  -webkit-transform:rotate(75.76deg);
-  -o-transform:rotate(75.76deg);
-  -ms-transform:rotate(75.76deg);
-  }
-  100% {
-  -moz-transform:rotate(435.76deg);
-  -webkit-transform:rotate(435.76deg);
-  -o-transform:rotate(435.76deg);
-  -ms-transform:rotate(435.76deg); 
-  }
-} 
 @keyframes spin9 {
   0% {
-  -moz-transform:rotate(85.23deg);
-  -webkit-transform:rotate(85.23deg);
-  -o-transform:rotate(85.23deg);
-  -ms-transform:rotate(85.23deg);
+   transform:rotate(85.23deg);
   }
   100% {
-  -moz-transform:rotate(445.23deg);
-  -webkit-transform:rotate(445.23deg);
-  -o-transform:rotate(445.23deg);
-  -ms-transform:rotate(445.23deg); 
+    transform:rotate(445.23deg); 
   }
 }
-@-webkit-keyframes spin9 {
-  0% {
-  -moz-transform:rotate(85.23deg);
-  -webkit-transform:rotate(85.23deg);
-  -o-transform:rotate(85.23deg);
-  -ms-transform:rotate(85.23deg);
-  }
-  100% {
-  -moz-transform:rotate(445.23deg);
-  -webkit-transform:rotate(445.23deg);
-  -o-transform:rotate(445.23deg);
-  -ms-transform:rotate(445.23deg); 
-  }
-} 
 @keyframes spin10 {
   0% {
-  -moz-transform:rotate(94.7deg);
-  -webkit-transform:rotate(94.7deg);
-  -o-transform:rotate(94.7deg);
-  -ms-transform:rotate(94.7deg);
+  transform:rotate(94.7deg);
   }
   100% {
-  -moz-transform:rotate(454.7deg);
-  -webkit-transform:rotate(454.7deg);
-  -o-transform:rotate(454.7deg);
-  -ms-transform:rotate(454.7deg); 
-  }
-}
-@-webkit-keyframes spin10 {
-  0% {
-  -moz-transform:rotate(94.7deg);
-  -webkit-transform:rotate(94.7deg);
-  -o-transform:rotate(94.7deg);
-  -ms-transform:rotate(94.7deg);
-  }
-  100% {
-  -moz-transform:rotate(454.7deg);
-  -webkit-transform:rotate(454.7deg);
-  -o-transform:rotate(454.7deg);
-  -ms-transform:rotate(454.7deg); 
+   transform:rotate(454.7deg); 
   }
 }
 @keyframes spin11 {
   0% {
-  -moz-transform:rotate(104.17deg);
-  -webkit-transform:rotate(104.17deg);
-  -o-transform:rotate(104.17deg);
-  -ms-transform:rotate(104.17deg);
+    transform:rotate(104.17deg);
   }
   100% {
-  -moz-transform:rotate(464.17deg);
-  -webkit-transform:rotate(464.17deg);
-  -o-transform:rotate(464.17deg);
-  -ms-transform:rotate(464.17deg); 
-  }
-} 
-@-webkit-keyframes spin11 {
-  0% {
-  -moz-transform:rotate(104.17deg);
-  -webkit-transform:rotate(104.17deg);
-  -o-transform:rotate(104.17deg);
-  -ms-transform:rotate(104.17deg);
-  }
-  100% {
-  -moz-transform:rotate(464.17deg);
-  -webkit-transform:rotate(464.17deg);
-  -o-transform:rotate(464.17deg);
-  -ms-transform:rotate(464.17deg); 
+    transform:rotate(464.17deg); 
   }
 } 
 @keyframes spin12 {
   0% {
-  -moz-transform:rotate(113.64deg);
-  -webkit-transform:rotate(113.64deg);
-  -o-transform:rotate(113.64deg);
-  -ms-transform:rotate(113.64deg);
+    transform:rotate(113.64deg);
   }
   100% {
-  -moz-transform:rotate(473.64deg);
-  -webkit-transform:rotate(473.64deg);
-  -o-transform:rotate(473.64deg);
-  -ms-transform:rotate(473.64deg); 
+    transform:rotate(473.64deg); 
   }
 }
-@-webkit-keyframes spin12 {
-  0% {
-  -moz-transform:rotate(113.64deg);
-  -webkit-transform:rotate(113.64deg);
-  -o-transform:rotate(113.64deg);
-  -ms-transform:rotate(113.64deg);
-  }
-  100% {
-  -moz-transform:rotate(473.64deg);
-  -webkit-transform:rotate(473.64deg);
-  -o-transform:rotate(473.64deg);
-  -ms-transform:rotate(473.64deg); 
-  }
-} 
-
-
 @keyframes spin13 {
   0% {
-  -moz-transform:rotate(123.11deg);
-  -webkit-transform:rotate(123.11deg);
-  -o-transform:rotate(123.11deg);
-  -ms-transform:rotate(123.11deg);
+    transform:rotate(123.11deg);
   }
   100% {
-  -moz-transform:rotate(483.11deg);
-  -webkit-transform:rotate(483.11deg);
-  -o-transform:rotate(483.11deg);
-  -ms-transform:rotate(483.11deg); 
-  }
-}
-@-webkit-keyframes spin13 {
-  0% {
-  -moz-transform:rotate(123.11deg);
-  -webkit-transform:rotate(123.11deg);
-  -o-transform:rotate(123.11deg);
-  -ms-transform:rotate(123.11deg);
-  }
-  100% {
-  -moz-transform:rotate(483.11deg);
-  -webkit-transform:rotate(483.11deg);
-  -o-transform:rotate(483.11deg);
-  -ms-transform:rotate(483.11deg); 
+    transform:rotate(483.11deg); 
   }
 }
 @keyframes spin14 {
   0% {
-  -moz-transform:rotate(132.58deg);
-  -webkit-transform:rotate(132.58deg);
-  -o-transform:rotate(132.58deg);
-  -ms-transform:rotate(132.58deg);
+    transform:rotate(132.58deg);
   }
   100% {
-  -moz-transform:rotate(492.58deg);
-  -webkit-transform:rotate(492.58deg);
-  -o-transform:rotate(492.58deg);
-  -ms-transform:rotate(492.58deg); 
-  }
-  } 
-@-webkit-keyframes spin14 {
-  0% {
-  -moz-transform:rotate(132.58deg);
-  -webkit-transform:rotate(132.58deg);
-  -o-transform:rotate(132.58deg);
-  -ms-transform:rotate(132.58deg);
-  }
-  100% {
-  -moz-transform:rotate(492.58deg);
-  -webkit-transform:rotate(492.58deg);
-  -o-transform:rotate(492.58deg);
-  -ms-transform:rotate(492.58deg); 
+    transform:rotate(492.58deg); 
   }
 } 
 
 @keyframes spin15 {
-  0% {
-      -moz-transform:rotate(142.05deg);
-      -webkit-transform:rotate(142.05deg);
-      -o-transform:rotate(142.05deg);
-      -ms-transform:rotate(142.05deg);
-      }
-      100% {
-      -moz-transform:rotate(502.05deg);
-      -webkit-transform:rotate(502.05deg);
-      -o-transform:rotate(502.05deg);
-      -ms-transform:rotate(502.05deg); 
-      }
-    } 
-      
-@-webkit-keyframes spin15 {
-  0% {
-  -moz-transform:rotate(142.05deg);
-  -webkit-transform:rotate(142.05deg);
-  -o-transform:rotate(142.05deg);
-  -ms-transform:rotate(142.05deg);
+0% {
+    transform:rotate(142.05deg);
   }
   100% {
-  -moz-transform:rotate(502.05deg);
-  -webkit-transform:rotate(502.05deg);
-  -o-transform:rotate(502.05deg);
-  -ms-transform:rotate(502.05deg); 
+    transform:rotate(502.05deg); 
   }
-}  
- @keyframes spin16 {
-  0% {
-      -moz-transform:rotate(151.52deg);
-      -webkit-transform:rotate(151.52deg);
-      -o-transform:rotate(151.52deg);
-      -ms-transform:rotate(151.52deg);
-      }
-      100% {
-      -moz-transform:rotate(511.52deg);
-      -webkit-transform:rotate(511.52deg);
-      -o-transform:rotate(511.52deg);
-      -ms-transform:rotate(511.52deg); 
-      }
-    }
-    @-webkit-keyframes spin16 {
-      0% {
-      -moz-transform:rotate(151.52deg);
-      -webkit-transform:rotate(151.52deg);
-      -o-transform:rotate(151.52deg);
-      -ms-transform:rotate(151.52deg);
-      }
-      100% {
-      -moz-transform:rotate(511.52deg);
-      -webkit-transform:rotate(511.52deg);
-      -o-transform:rotate(511.52deg);
-      -ms-transform:rotate(511.52deg); 
-      }
-    } 
-   
+}     
+@keyframes spin16 {
+0% {
+    transform:rotate(151.52deg);
+  }
+  100% {
+    transform:rotate(511.52deg); 
+  }
+}   
 @keyframes spin17 {
   0% {
-      -moz-transform:rotate(160.99deg);
-  -webkit-transform:rotate(160.99deg);
-  -o-transform:rotate(160.99deg);
-  -ms-transform:rotate(160.99deg);
+    s-transform:rotate(160.99deg);
   }
   100% {
-  -moz-transform:rotate(520.99deg);
-  -webkit-transform:rotate(520.99deg);
-  -o-transform:rotate(520.99deg);
-  -ms-transform:rotate(520.99deg); 
+    transform:rotate(520.99deg); 
   }
 }
-@-webkit-keyframes spin17 {
-  0% {
-  -moz-transform:rotate(160.99deg);
-  -webkit-transform:rotate(160.99deg);
-  -o-transform:rotate(160.99deg);
-  -ms-transform:rotate(160.99deg);
-  }
-  100% {
-  -moz-transform:rotate(520.99deg);
-  -webkit-transform:rotate(520.99deg);
-  -o-transform:rotate(520.99deg);
-  -ms-transform:rotate(520.99deg); 
-  }
-} 
 
 @keyframes spin18 {
-  0% {
-      -moz-transform:rotate(170.46deg);
-      -webkit-transform:rotate(170.46deg);
-      -o-transform:rotate(170.46deg);
-      -ms-transform:rotate(170.46deg);
-      }
-      100% {
-      -moz-transform:rotate(530.46deg);
-      -webkit-transform:rotate(530.46deg);
-      -o-transform:rotate(530.46deg);
-      -ms-transform:rotate(530.46deg); 
-      }
-    } 
-    @-webkit-keyframes spin18 {
-      0% {
-      -moz-transform:rotate(170.46deg);
-      -webkit-transform:rotate(170.46deg);
-      -o-transform:rotate(170.46deg);
-      -ms-transform:rotate(170.46deg);
-      }
-      100% {
-      -moz-transform:rotate(530.46deg);
-      -webkit-transform:rotate(530.46deg);
-      -o-transform:rotate(530.46deg);
-      -ms-transform:rotate(530.46deg); 
-      }
-    } 
-@keyframes spin19 {
-  0% {
-      -moz-transform:rotate(179.93deg);
-      -webkit-transform:rotate(179.93deg);
-      -o-transform:rotate(179.93deg);
-      -ms-transform:rotate(179.93deg);
-      }
-      100% {
-      -moz-transform:rotate(539.93deg);
-      -webkit-transform:rotate(539.93deg);
-      -o-transform:rotate(539.93deg);
-      -ms-transform:rotate(539.93deg); 
-      }
-    } 
-        
-@-webkit-keyframes spin19 {
-  0% {
-  -moz-transform:rotate(179.93deg);
-  -webkit-transform:rotate(179.93deg);
-  -o-transform:rotate(179.93deg);
-  -ms-transform:rotate(179.93deg);
+0% {
+    transform:rotate(170.46deg);
   }
   100% {
-  -moz-transform:rotate(539.93deg);
-  -webkit-transform:rotate(539.93deg);
-  -o-transform:rotate(539.93deg);
-  -ms-transform:rotate(539.93deg); 
+    transform:rotate(530.46deg); 
   }
 } 
-
+@keyframes spin19 {
+0% {
+    transform:rotate(179.93deg);
+  }
+  100% {
+    transform:rotate(539.93deg); 
+  }
+} 
 @keyframes spin20 {
   0% {
-  -moz-transform:rotate(189.4deg);
-  -webkit-transform:rotate(189.4deg);
-  -o-transform:rotate(189.4deg);
-  -ms-transform:rotate(189.4deg);
+   transform:rotate(189.4deg);
   }
   100% {
-  -moz-transform:rotate(549.4deg);
-  -webkit-transform:rotate(549.4deg);
-  -o-transform:rotate(549.4deg);
-  -ms-transform:rotate(549.4deg); 
+   transform:rotate(549.4deg); 
   }
 }
-@-webkit-keyframes spin20 {
-  0% {
-      -moz-transform:rotate(189.4deg);
-      -webkit-transform:rotate(189.4deg);
-      -o-transform:rotate(189.4deg);
-      -ms-transform:rotate(189.4deg);
-      }
-      100% {
-      -moz-transform:rotate(549.4deg);
-      -webkit-transform:rotate(549.4deg);
-      -o-transform:rotate(549.4deg);
-      -ms-transform:rotate(549.4deg); 
-      }
-    }
 @keyframes spin21 {
   0% {
-      -moz-transform:rotate(198.87deg);
-      -webkit-transform:rotate(198.87deg);
-      -o-transform:rotate(198.87deg);
-      -ms-transform:rotate(198.87deg);
-      }
-      100% {
-      -moz-transform:rotate(558.87deg);
-      -webkit-transform:rotate(558.87deg);
-      -o-transform:rotate(558.87deg);
-      -ms-transform:rotate(558.87deg); 
-      }
-    }
-    
-@-webkit-keyframes spin21 {
-  0% {
-  -moz-transform:rotate(198.87deg);
-  -webkit-transform:rotate(198.87deg);
-  -o-transform:rotate(198.87deg);
-  -ms-transform:rotate(198.87deg);
+    transform:rotate(198.87deg);
   }
   100% {
-  -moz-transform:rotate(558.87deg);
-  -webkit-transform:rotate(558.87deg);
-  -o-transform:rotate(558.87deg);
-  -ms-transform:rotate(558.87deg); 
+    transform:rotate(558.87deg); 
   }
-} 
-
+}
 @keyframes spin22 {
   0% {
-      -moz-transform:rotate(208.34deg);
-      -webkit-transform:rotate(208.34deg);
-      -o-transform:rotate(208.34deg);
-      -ms-transform:rotate(208.34deg);
-      }
-      100% {
-      -moz-transform:rotate(568.34deg);
-      -webkit-transform:rotate(568.34deg);
-      -o-transform:rotate(568.34deg);
-      -ms-transform:rotate(568.34deg); 
-      }
-    } 
-    @-webkit-keyframes spin22 {
-      0% {
-      -moz-transform:rotate(208.34deg);
-      -webkit-transform:rotate(208.34deg);
-      -o-transform:rotate(208.34deg);
-      -ms-transform:rotate(208.34deg);
-      }
-      100% {
-      -moz-transform:rotate(568.34deg);
-      -webkit-transform:rotate(568.34deg);
-      -o-transform:rotate(568.34deg);
-      -ms-transform:rotate(568.34deg); 
-      }
-    } 
+    transform:rotate(208.34deg);
+  }
+  100% {
+    transform:rotate(568.34deg); 
+  }
+} 
 @keyframes spin23 {
   0% {
-      -moz-transform:rotate(217.81deg);
-      -webkit-transform:rotate(217.81deg);
-      -o-transform:rotate(217.81deg);
-      -ms-transform:rotate(217.81deg);
-      }
-      100% {
-      -moz-transform:rotate(577.81deg);
-      -webkit-transform:rotate(577.81deg);
-      -o-transform:rotate(577.81deg);
-      -ms-transform:rotate(577.81deg); 
-      }
-    } 
-        
-@-webkit-keyframes spin23 {
-  0% {
-  -moz-transform:rotate(217.81deg);
-  -webkit-transform:rotate(217.81deg);
-  -o-transform:rotate(217.81deg);
-  -ms-transform:rotate(217.81deg);
+    transform:rotate(217.81deg);
   }
   100% {
-  -moz-transform:rotate(577.81deg);
-  -webkit-transform:rotate(577.81deg);
-  -o-transform:rotate(577.81deg);
-  -ms-transform:rotate(577.81deg); 
+    transform:rotate(577.81deg); 
   }
-} 
- @keyframes spin24 {
-  0% {
-      -moz-transform:rotate(227.28deg);
-      -webkit-transform:rotate(227.28deg);
-      -o-transform:rotate(227.28deg);
-      -ms-transform:rotate(227.28deg);
-      }
-      100% {
-      -moz-transform:rotate(587.28deg);
-      -webkit-transform:rotate(587.28deg);
-      -o-transform:rotate(587.28deg);
-      -ms-transform:rotate(587.28deg); 
-      }
-    }     
-@-webkit-keyframes spin24 {
-  0% {
-  -moz-transform:rotate(227.28deg);
-  -webkit-transform:rotate(227.28deg);
-  -o-transform:rotate(227.28deg);
-  -ms-transform:rotate(227.28deg);
+}
+@keyframes spin24 {
+0% {
+    transform:rotate(227.28deg);
   }
   100% {
-  -moz-transform:rotate(587.28deg);
-  -webkit-transform:rotate(587.28deg);
-  -o-transform:rotate(587.28deg);
-  -ms-transform:rotate(587.28deg); 
+    transform:rotate(587.28deg); 
   }
-} 
-
+}     
 @keyframes spin25 {
   0% {
-  -moz-transform:rotate(236.75deg);
-  -webkit-transform:rotate(236.75deg);
-  -o-transform:rotate(236.75deg);
-  -ms-transform:rotate(236.75deg);
+    transform:rotate(236.75deg);
   }
   100% {
-  -moz-transform:rotate(596.75deg);
-  -webkit-transform:rotate(596.75deg);
-  -o-transform:rotate(596.75deg);
-  -ms-transform:rotate(596.75deg); 
+    transform:rotate(596.75deg); 
   }
 }
-@-webkit-keyframes spin25 {
-  0% {
-      -moz-transform:rotate(236.75deg);
-      -webkit-transform:rotate(236.75deg);
-      -o-transform:rotate(236.75deg);
-      -ms-transform:rotate(236.75deg);
-      }
-      100% {
-      -moz-transform:rotate(596.75deg);
-      -webkit-transform:rotate(596.75deg);
-      -o-transform:rotate(596.75deg);
-      -ms-transform:rotate(596.75deg); 
-      }
-    } 
 @keyframes spin26 {
   0% {
-  -moz-transform:rotate(246.22deg);
-  -webkit-transform:rotate(246.22deg);
-  -o-transform:rotate(246.22deg);
-  -ms-transform:rotate(246.22deg);
+    transform:rotate(246.22deg);
   }
   100% {
-  -moz-transform:rotate(606.22deg);
-  -webkit-transform:rotate(606.22deg);
-  -o-transform:rotate(606.22deg);
-  -ms-transform:rotate(606.22deg); 
+    transform:rotate(606.22deg); 
   }
 }
-@-webkit-keyframes spin26 {
-  0% {
-      -moz-transform:rotate(246.22deg);
-      -webkit-transform:rotate(246.22deg);
-      -o-transform:rotate(246.22deg);
-      -ms-transform:rotate(246.22deg);
-      }
-      100% {
-      -moz-transform:rotate(606.22deg);
-      -webkit-transform:rotate(606.22deg);
-      -o-transform:rotate(606.22deg);
-      -ms-transform:rotate(606.22deg); 
-      }
-    } 
      @keyframes spin27 {
   0% {
-  -moz-transform:rotate(255.69deg);
-  -webkit-transform:rotate(255.69deg);
-  -o-transform:rotate(255.69deg);
-  -ms-transform:rotate(255.69deg);
+    transform:rotate(255.69deg);
   }
   100% {
-  -moz-transform:rotate(615.69deg);
-  -webkit-transform:rotate(615.69deg);
-  -o-transform:rotate(615.69deg);
-  -ms-transform:rotate(615.69deg); 
+    transform:rotate(615.69deg); 
   }
 }
-@-webkit-keyframes spin27 {
-  0% {
-      -moz-transform:rotate(255.69deg);
-      -webkit-transform:rotate(255.69deg);
-      -o-transform:rotate(255.69deg);
-      -ms-transform:rotate(255.69deg);
-      }
-      100% {
-      -moz-transform:rotate(615.69deg);
-      -webkit-transform:rotate(615.69deg);
-      -o-transform:rotate(615.69deg);
-      -ms-transform:rotate(615.69deg); 
-      }
-    } 
 @keyframes spin28 {
   0% {
-  -moz-transform:rotate(265.16deg);
-  -webkit-transform:rotate(265.16deg);
-  -o-transform:rotate(265.16deg);
-  -ms-transform:rotate(265.16deg);
+    transform:rotate(265.16deg);
   }
   100% {
-  -moz-transform:rotate(625.16deg);
-  -webkit-transform:rotate(625.16deg);
-  -o-transform:rotate(625.16deg);
-  -ms-transform:rotate(625.16deg); 
+    transform:rotate(625.16deg); 
   }
 }
-@-webkit-keyframes spin28 {
-  0% {
-      -moz-transform:rotate(265.16deg);
-      -webkit-transform:rotate(265.16deg);
-      -o-transform:rotate(265.16deg);
-      -ms-transform:rotate(265.16deg);
-      }
-      100% {
-      -moz-transform:rotate(625.16deg);
-      -webkit-transform:rotate(625.16deg);
-      -o-transform:rotate(625.16deg);
-      -ms-transform:rotate(625.16deg); 
-      }
-    } 
 @keyframes spin29 {
   0% {
-  -moz-transform:rotate(274.63deg);
-  -webkit-transform:rotate(274.63deg);
-  -o-transform:rotate(274.63deg);
-  -ms-transform:rotate(274.63deg);
+    transform:rotate(274.63deg);
   }
   100% {
-  -moz-transform:rotate(634.63deg);
-  -webkit-transform:rotate(634.63deg);
-  -o-transform:rotate(634.63deg);
-  -ms-transform:rotate(634.63deg); 
+    transform:rotate(634.63deg); 
   }
 }
-@-webkit-keyframes spin29 {
-  0% {
-      -moz-transform:rotate(274.63deg);
-      -webkit-transform:rotate(274.63deg);
-      -o-transform:rotate(274.63deg);
-      -ms-transform:rotate(274.63deg);
-      }
-      100% {
-      -moz-transform:rotate(634.63deg);
-      -webkit-transform:rotate(634.63deg);
-      -o-transform:rotate(634.63deg);
-      -ms-transform:rotate(634.63deg); 
-      }
-    }  
   @keyframes spin30 {
   0% {
-  -moz-transform:rotate(284.1deg);
-  -webkit-transform:rotate(284.1deg);
-  -o-transform:rotate(284.1deg);
-  -ms-transform:rotate(284.1deg);
+   transform:rotate(284.1deg);
   }
   100% {
-  -moz-transform:rotate(644.1deg);
-  -webkit-transform:rotate(644.1deg);
-  -o-transform:rotate(644.1deg);
-  -ms-transform:rotate(644.1deg); 
+   transform:rotate(644.1deg); 
   }
 }
-@-webkit-keyframes spin30 {
-  0% {
-      -moz-transform:rotate(284.1deg);
-      -webkit-transform:rotate(284.1deg);
-      -o-transform:rotate(284.1deg);
-      -ms-transform:rotate(284.1deg);
-      }
-      100% {
-      -moz-transform:rotate(644.1deg);
-      -webkit-transform:rotate(644.1deg);
-      -o-transform:rotate(644.1deg);
-      -ms-transform:rotate(644.1deg); 
-      }
-    }
 @keyframes spin31 {
   0% {
-  -moz-transform:rotate(293.57deg);
-  -webkit-transform:rotate(293.57deg);
-  -o-transform:rotate(293.57deg);
-  -ms-transform:rotate(293.57deg);
+    transform:rotate(293.57deg);
   }
   100% {
-  -moz-transform:rotate(653.57deg);
-  -webkit-transform:rotate(653.57deg);
-  -o-transform:rotate(653.57deg);
-  -ms-transform:rotate(653.57deg); 
+    transform:rotate(653.57deg); 
   }
 }
-@-webkit-keyframes spin31 {
-  0% {
-      -moz-transform:rotate(293.57deg);
-      -webkit-transform:rotate(293.57deg);
-      -o-transform:rotate(293.57deg);
-      -ms-transform:rotate(293.57deg);
-      }
-      100% {
-      -moz-transform:rotate(653.57deg);
-      -webkit-transform:rotate(653.57deg);
-      -o-transform:rotate(653.57deg);
-      -ms-transform:rotate(653.57deg); 
-      }
-    }
 @keyframes spin32 {
   0% {
-  -moz-transform:rotate(303.04deg);
-  -webkit-transform:rotate(303.04deg);
-  -o-transform:rotate(303.04deg);
-  -ms-transform:rotate(303.04deg);
+    transform:rotate(303.04deg);
   }
   100% {
-  -moz-transform:rotate(663.04deg);
-  -webkit-transform:rotate(663.04deg);
-  -o-transform:rotate(663.04deg);
-  -ms-transform:rotate(663.04deg); 
+    transform:rotate(663.04deg); 
   }
 }
-@-webkit-keyframes spin32 {
-  0% {
-      -moz-transform:rotate(303.04deg);
-      -webkit-transform:rotate(303.04deg);
-      -o-transform:rotate(303.04deg);
-      -ms-transform:rotate(303.04deg);
-      }
-      100% {
-      -moz-transform:rotate(663.04deg);
-      -webkit-transform:rotate(663.04deg);
-      -o-transform:rotate(663.04deg);
-      -ms-transform:rotate(663.04deg); 
-      }
-    }
 @keyframes spin33 {
   0% {
-  -moz-transform:rotate(312.51deg);
-  -webkit-transform:rotate(312.51deg);
-  -o-transform:rotate(312.51deg);
-  -ms-transform:rotate(312.51deg);
+    transform:rotate(312.51deg);
   }
   100% {
-  -moz-transform:rotate(672.51deg);
-  -webkit-transform:rotate(672.51deg);
-  -o-transform:rotate(672.51deg);
-  -ms-transform:rotate(672.51deg); 
+    transform:rotate(672.51deg); 
   }
 }
-@-webkit-keyframes spin33 {
-  0% {
-      -moz-transform:rotate(312.51deg);
-      -webkit-transform:rotate(312.51deg);
-      -o-transform:rotate(312.51deg);
-      -ms-transform:rotate(312.51deg);
-      }
-      100% {
-      -moz-transform:rotate(672.51deg);
-      -webkit-transform:rotate(672.51deg);
-      -o-transform:rotate(672.51deg);
-      -ms-transform:rotate(672.51deg); 
-      }
-    }
 @keyframes spin34 {
   0% {
-  -moz-transform:rotate(321.98deg);
-  -webkit-transform:rotate(321.98deg);
-  -o-transform:rotate(321.98deg);
-  -ms-transform:rotate(321.98deg);
+    transform:rotate(321.98deg);
   }
   100% {
-  -moz-transform:rotate(681.98deg);
-  -webkit-transform:rotate(681.98deg);
-  -o-transform:rotate(681.98deg);
-  -ms-transform:rotate(681.98deg); 
+    transform:rotate(681.98deg); 
   }
 }
-@-webkit-keyframes spin34 {
-  0% {
-      -moz-transform:rotate(321.98deg);
-      -webkit-transform:rotate(321.98deg);
-      -o-transform:rotate(321.98deg);
-      -ms-transform:rotate(321.98deg);
-      }
-      100% {
-      -moz-transform:rotate(681.98deg);
-      -webkit-transform:rotate(681.98deg);
-      -o-transform:rotate(681.98deg);
-      -ms-transform:rotate(681.98deg); 
-      }
-    }
 @keyframes spin35 {
   0% {
-  -moz-transform:rotate(331.45deg);
-  -webkit-transform:rotate(331.45deg);
-  -o-transform:rotate(331.45deg);
-  -ms-transform:rotate(331.45deg);
+    transform:rotate(331.45deg);
   }
   100% {
-  -moz-transform:rotate(691.45deg);
-  -webkit-transform:rotate(691.45deg);
-  -o-transform:rotate(691.45deg);
-  -ms-transform:rotate(691.45deg); 
+    transform:rotate(691.45deg); 
   }
 }
-@-webkit-keyframes spin35 {
-  0% {
-      -moz-transform:rotate(331.45deg);
-      -webkit-transform:rotate(331.45deg);
-      -o-transform:rotate(331.45deg);
-      -ms-transform:rotate(331.45deg);
-      }
-      100% {
-      -moz-transform:rotate(691.45deg);
-      -webkit-transform:rotate(691.45deg);
-      -o-transform:rotate(691.45deg);
-      -ms-transform:rotate(691.45deg); 
-      }
-    }
 @keyframes spin36 {
   0% {
-  -moz-transform:rotate(340.92deg);
-  -webkit-transform:rotate(340.92deg);
-  -o-transform:rotate(340.92deg);
-  -ms-transform:rotate(340.92deg);
+    transform:rotate(340.92deg);
   }
   100% {
-  -moz-transform:rotate(700.92deg);
-  -webkit-transform:rotate(700.92deg);
-  -o-transform:rotate(700.92deg);
-  -ms-transform:rotate(700.92deg); 
+    transform:rotate(700.92deg); 
   }
 } 
- @-webkit-keyframes spin36 {
+@keyframes spin37 {
   0% {
-      -moz-transform:rotate(340.92deg);
-      -webkit-transform:rotate(340.92deg);
-      -o-transform:rotate(340.92deg);
-      -ms-transform:rotate(340.92deg);
-      }
-      100% {
-      -moz-transform:rotate(700.92deg);
-      -webkit-transform:rotate(700.92deg);
-      -o-transform:rotate(700.92deg);
-      -ms-transform:rotate(700.92deg); 
-      }
+      transform:rotate(350.39deg);      
     }
-    @keyframes spin37 {
-      0% {
-      transform:rotate(350.39deg);
-      
-      }
-      100% {
-      transform:rotate(710.39deg);
-      }
-    }
-    @-webkit-keyframes spin37 {
-      0% {
-          transform:rotate(350.39deg);
-          }
-          100% {
-          transform:rotate(710.39deg);
-
-          }
-        } 
-  @keyframes spin00 {
-  0% {
-  -moz-transform:rotate(360deg);
-  -webkit-transform:rotate(360deg);
-  -o-transform:rotate(360deg);
-  -ms-transform:rotate(360deg);
-  }
   100% {
-  -moz-transform:rotate(720deg);
-  -webkit-transform:rotate(720deg);
-  -o-transform:rotate(720deg);
-  -ms-transform:rotate(720deg); 
+    transform:rotate(710.39deg);
   }
 }
-@-webkit-keyframes spin00 {
+@keyframes spin00{
   0% {
-      -moz-transform:rotate(360deg);
-      -webkit-transform:rotate(360deg);
-      -o-transform:rotate(360deg);
-      -ms-transform:rotate(360deg);
-      }
-      100% {
-      -moz-transform:rotate(720deg);
-      -webkit-transform:rotate(720deg);
-      -o-transform:rotate(720deg);
-      -ms-transform:rotate(720deg); 
-      }
-    }
+      transform:rotate(360deg);
+  }
+  100% {
+  transform:rotate(720deg);
+  }
+}
