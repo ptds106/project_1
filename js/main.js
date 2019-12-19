@@ -77,7 +77,7 @@ function payOut (){
     if((betObject['even'] !== undefined || betObject['red'] !== undefined) && (rand % 2 === 0 && rand !== 0)) {
         win += betObject['even'] * 2 || betObject['red'] * 2;
     }
-    if((betObject['odd'] !== undefined || betObject['black'] !== undefined) && rand % 2 === 0 && rand !== 0) {
+    if((betObject['odd'] !== undefined || betObject['black'] !== undefined) && rand % 2 !== 0 && rand !== 0) {
         win += betObject['odd'] * 2 || betObject['black'] * 2;
     }
     if(betObject['1st 12'] !== undefined && (rand > 0 && rand < 13)) {
@@ -163,11 +163,11 @@ function numberSelected() {
  }
 
 function mainRender() {
-    chip1.style.outlineColor = 'rgb(56, 39, 29)';
-    chip2.style.outlineColor = 'rgb(56, 39, 29)';
-    chip3.style.outlineColor = 'rgb(56, 39, 29)';
-    chip4.style.outlineColor = 'rgb(56, 39, 29)';
-    chip5.style.outlineColor = 'rgb(56, 39, 29)';
+    chip1.style.outlineColor = 'rgb(34, 19, 10)';
+    chip2.style.outlineColor = 'rgb(34, 19, 10)';
+    chip3.style.outlineColor = 'rgb(34, 19, 10)';
+    chip4.style.outlineColor = 'rgb(34, 19, 10)';
+    chip5.style.outlineColor = 'rgb(34, 19, 10)';
     event.target.style.outlineColor = "white";
 }
 function betRender() {
@@ -213,15 +213,19 @@ function renderNumber() {
     if (rand == "0" || rand == "00") {
         document.getElementById("number").style.color = "white";
         pastNumber.style.color = "white";
+        pastNumber.style.outlineColor = "black";
     }
     else if (rand % 2 === 0) {
         document.getElementById("number").style.color = "#ff0000";
         pastNumber.style.color = "#ff0000";
+        pastNumber.style.outlineColor = "black";
     }
     else if (rand % 2 !== 0) {
         document.getElementById("number").style.color = "black";
         pastNumber.style.color= "black";
+        pastNumber.style.outlineColor = "black";
     }
+
     if(Object.keys(betObject).length > 0)
     {
         pastChoice = document.createElement('li')
@@ -230,7 +234,7 @@ function renderNumber() {
         choiceList.appendChild(pastChoice);
         pastChoice.style.outlineColor = "black";
     }
-    console.log(Object.keys(betObject).length)
+
     number.textContent = "Your number is: " + rand;
 }
 

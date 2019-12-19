@@ -1,21 +1,22 @@
 #pastChoices{
   position: absolute;
-  top: 100px;
-  right: 250px;
+  top: 6.2vw;
+  right: 15.7vw;
   width: 15%;
-  height: 330px;
-  border: 3px dashed black;
+  height: 20.8vw;
+  border: 0.2vw dashed black;
   overflow: auto;
   word-wrap: break-word;
-  font-size: 30px;
+  font-size: 1.8vw;
   color: rgb(77, 18, 18);
   text-align: center;
   background: #477148;
   font-weight: bold;
+  margin-right: 0vw 0vw;
 }
 .pastChoice{
   list-style: none;
-  font-size: 30px;
+  font-size: 1.8vw;
   outline: 1px solid #477148;
   background-color: #477148;
   text-align: center;
@@ -34,7 +35,7 @@
   left: 200px;
   border: 2px dashed black;
   color: black;
-  font-size: 60px;
+  font-size: 1.8vw;
   font-weight: bold;
   z-index: 1;
   background-color: white;
@@ -42,44 +43,44 @@
 }
 #timer{
   position: absolute;
-  top: 100px;
-  left: 400px;
-  font-size: 40px;
+  top: 6vw;
+  left: 31vw;
+  font-size: 2.5vw;
   color: pink;
   font-weight: bold;
 }
 #message{
   position: absolute;
-  top: 350px;
-  left: 400px;
-  font-size: 40px;
+  top: 23vw;
+  left: 31vw;
+  font-size: 2.5vw;
   color: rgb(122, 98, 163);
   font-weight: bold;
 }
 #reset{
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 0.9vw;
+  left: 1.0vw;
   background-color: #477148;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 0.5vw 1vw;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1.8vw;
+  margin: 0vw 0vw;
   cursor: pointer;
 }
 #pastNumber{
   position: absolute;
-  top: 100px;
-  right: 10px;
+  top: 6.2vw;
+  right: 0.5vw;
   width: 15%;
-  height: 330px;
-  border: 3px dashed black;
+  height: 20.8vw;
+  border: 0.2vw dashed black;
   overflow: auto;
   word-wrap: break-word;
-  font-size: 30px;
+  font-size: 1.8vw;
   color: rgb(77, 18, 18);
   text-align: center;
   background: #477148;
@@ -87,69 +88,70 @@
  }
 .randNumbers{
   list-style: none;
-  font-size: 30px;
+  font-size: 1.8vw;
   grid-row-start: auto;
-  border: 1px solid black;
+  outline: 0.1vw solid #477148;
   background-color: #477148;
   text-align: center;
 }
 #lists {
   transform: rotate(180deg);
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
+  padding: 0vw 0vw 0vw 0vw;
+  margin: 0vw 0vw 0vw 0vw;
 }
 #lists > .randNumbers {
   transform: rotate(-180deg);
 }
 #number{
   position: absolute;
-  top: 150px;
-  left: 400px;
-  font-size: 40px;
+  top: 9vw;
+  left: 31vw;
+  font-size: 2.5vw;
   color: pink;
   font-weight: bold;
 }
 
 .newGame{
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 1vw;
+  right: 1vw;
   background-color: #477148;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 0.5vw 2vw;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 1.8vw;
+  margin: 0px 2px;
   cursor: pointer;
 }
 header{
     display: flexbox;
     text-align: center;
     justify-content: center;
-    font-size: 30px;
-    border: 3px dashed pink;
-    padding: 20px 20px;
+    font-size: 1.8vw;
+    border: 0.2vw dashed pink;
+    padding: 1.2vw 1.2vw;
     color: pink;
     
 }
 .instruction{
-    font-size: 25px;
+    font-size: 1.8vw;
     color: pink;
-    padding: 0px 20px 0px 20px;
+    padding: 0vw 2vw 0vw 2vw;
 }
 
 body{
-    background-color:rgb(56, 39, 29);
+    background-color:rgb(34, 19, 10);
+    margin: 0vw 0vw 0vw 0vw;
 }
 
 .chip{
     position: absolute;
-    top: 430px;
-    left: 0px;
-    margin: 10px 10px;
-    border-top: 10px solid #2B1E16;
+    bottom: 15.3vw;
+    left: 0vw;
+    margin: 0vw 0vw;
+    border-top: 0.1vw solid #2B1E16;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 12fr;
     grid-template-areas: 
@@ -157,97 +159,96 @@ body{
 }
 .money{
   position: absolute;
-  top: 440px;
-  left: 500px;
+  bottom: 15vw;
+  left: 31.5vw;
   color:white;
-
+  border: 0vw 0vw 0vw 0vw;
+  margin: 0vw 0vw 0vw 0vw;
+  font-size: 1vw;
 }
-
 .classMoney3{
-  display: flex;
-  justify-content: space-around;
-  justify-content: flex-start;
-  flex-direction: row;
+  border: 0vw 0vw 0vw 0vw;
+  margin: 0vw 0vw 0vw 0vw;
 }
 #chip1 {
-    margin: 30px 0px 0px 20px;
-    width: 30px;
-    height: 30px;
-    border: 13px dashed black;
+    margin: 2vw 0vw 0vw 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 0.8vw dashed black;
     border-radius: 50%;
-    line-height: 30px;
+    line-height: 2.5vw;
     text-align: center;
-    font-family: Helvetica;
     color: rgb(17, 1, 1);
     background-color: red;
-    outline: 1px solid rgb(56, 39, 29);
+    outline: 0.1vw solid rgb(34, 19, 10);
 }
   #chip2 {
-    margin: 30px 0px 0px 20px;
-    width: 30px;
-    height: 30px;
-    border: 13px dashed rgb(185, 231, 59);
+    margin: 2vw 0vw 0vw 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 0.8vw dashed rgb(185, 231, 59);
     border-radius: 50%;
-    line-height: 30px;
+    line-height: 2.5vw;
     text-align: center;
     font-family: Helvetica;
     color: rgb(206, 184, 184);
     background-color: rgb(79, 0, 99);
-    outline: 1px solid rgb(56, 39, 29);
+    outline: 0.1vw solid rgb(34, 19, 10);
   }
   #chip3 {
-    margin: 30px 0px 0px 20px;
-    width: 30px;
-    height: 30px;
-    border: 13px dashed rgb(3, 165, 52);
+    margin: 2vw 0vw 0vw 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 0.8vw dashed rgb(3, 165, 52);
     border-radius: 50%;
-    line-height: 30px;
+    line-height: 2.5vw;
     text-align: center;
     font-family: Helvetica;
     color: rgb(206, 184, 184);
     background-color: rgb(19, 7, 7);
-    outline: 1px solid rgb(56, 39, 29);
+    outline: 0.1vw solid rgb(34, 19, 10);
   }
   #chip4 {
-    margin: 30px 0px 0px 20px;
-    width: 30px;
-    height: 30px;
-    border: 13px dashed rgb(134, 3, 46);
+    margin: 2vw 0vw 0vw 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 0.8vw dashed rgb(134, 3, 46);
     border-radius: 50%;
-    line-height: 30px;
+    line-height: 2.5vw;
     text-align: center;
     font-family: Helvetica;
     color: rgb(226, 218, 218);
     background-color: rgb(77, 3, 3);
-    outline: 1px solid rgb(56, 39, 29);
+    outline: 0.1vw solid rgb(34, 19, 10);
   }
   #chip5 {
-    margin: 30px 30px 0px 20px;
-    width: 30px;
-    height: 30px;
-    border: 13px dashed rgb(125, 168, 216);
+    margin: 2vw 0vw 0vw 1.7vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    border: 0.8vw dashed rgb(125, 168, 216);
     border-radius: 50%;
-    line-height: 30px;
+    line-height: 2.5vw;
     text-align: center;
     font-family: Helvetica;
     color: rgb(17, 1, 1);
     background-color: rgb(240, 233, 233);
-    outline: 1px solid rgb(56, 39, 29);
+    outline: 0.1vw solid rgb(34, 19, 10);
   }
 .table{
     position: absolute;
-    top: 520px;
-    right: 0;
-    width: 98.2%;
-    margin: 30px 0px 0px 0px;
-    grid: 10px 200px 10px 20px;
+    bottom: 0.1em;
+    right: 0vw;
+    width: 100%;
+    margin: 1.8vw 0vw 0vw 0vw;
+    grid: 0vw 0vw 0vw 0vw;
+    border: 0vw 0vw 0vw 0vw;
     background-color: #477148;
-    border: 5px solid #160F0B; 
-    border-radius: 25px;
+    border: 0.2em solid #160F0B; 
+    border-radius: 2vw;
     color: white;
     text-align: center;
-    padding: 20px 10px;
-    font-size: 30px;
+    padding: 1.3vw 0vw;
+    font-size: 1.8vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas: 
@@ -259,932 +260,882 @@ body{
 }
 .zero{
     grid-area: zero;
-    border:1px solid white;    
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .double{
     grid-area: double;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .one{
     grid-area: one;
     border-radius: 50%;
     background-color: black;
-    border:1px solid white;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .two{
     grid-area: two;
     border-radius: 50%;
     background-color: red;
-    border:1px solid white;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .three{
     grid-area: three;
     border-radius: 50%;
     background-color: black;
-    border:1px solid white;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .four{
     border-radius: 50%;
     background-color: red;
-    border:1px solid white;
     grid-area: four;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .five{
-    border:1px solid white;
+
     border-radius: 50%;
     background-color: black;
     grid-area: five;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .six{
-    border:1px solid white;
+
     grid-area: six;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .seven{
-    border:1px solid white;
+
     border-radius: 50%;
     background-color: black;
     grid-area: seven;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .eight{
-    border:1px solid white;
     grid-area: eight;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .nine{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: nine;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .ten{
-    border:1px solid white;
     grid-area: ten;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .eleven{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: eleven;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twelve{
-    border:1px solid white;
     grid-area: twelve;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirteen{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: thirteen;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .fourteen{
-    border:1px solid white;
     grid-area: fourteen;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .fifteen{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: fifteen;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .sixteen{
-    border:1px solid white;
     grid-area: sixteen;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .seventeen{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: seventeen;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .eighteen{
-    border:1px solid white;
     grid-area: eighteen;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .nineteen{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: nineteen;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twenty{
-    border:1px solid white;
     grid-area: twenty;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentyOne{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: twentyOne;
-    outline: 1px solid white;
-}
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;}
 .twentyTwo{
-    border:1px solid white;
     grid-area: twentyTwo;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
-}
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
+  }
 .twentyThree{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: twentyThree;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentyFour{
-    border:1px solid white;
     grid-area: twentyFour;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentyFive{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: twentyFive;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentySix{
-    border:1px solid white;
     grid-area: twentySix;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentySeven{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: twentySeven;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentyEight{
-    border:1px solid white;
     grid-area: twentyEight;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .twentyNine{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: twentyNine;
-    outline: 1px solid white;
-    
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;    
 }
 .thirty{
-    border:1px solid white;
     grid-area: thirty;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirtyOne{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: thirtyOne;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirtyTwo{
-    border:1px solid white;
     grid-area: thirtyTwo;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirtyThree{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: thirtyThree;
-    outline: 1px solid white;
-}
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
+  }
 .thirtyFour{
-    border:1px solid white;
     grid-area: thirtyFour;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirtyFive{
-    border:1px solid white;
     border-radius: 50%;
     background-color: black;
     grid-area: thirtyFive;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirtySix{
-    border:1px solid white;
     grid-area: thirtySix;
     border-radius: 50%;
     background-color: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .firstTwoToOne{
     border:1px solid white;
     grid-area: firstTwoToOne;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .secondTwoToOne{
-    border:1px solid white;
     grid-area: secondTwoToOne;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .thirdTwoToOne{
-    border:1px solid white;
     grid-area: thirdTwoToOne;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .first{
-    border:1px solid white;
     grid-area: first;
     outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .second{
-    border:1px solid white;
     grid-area: second;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .third{
-    border:1px solid white;
     grid-area: third;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .even{
-    border:1px solid white;
     grid-area: even;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .odd{
-    border:1px solid white;
     grid-area: odd;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .red{
     background-color: red;
     grid-area: red;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .black{
     background-color: black;
     grid-area: black;
     color: white;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .firstEighteen{
-    border:1px solid white;
     grid-area:firstEighteen;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .lastEighteen{
-    border:1px solid white;
     grid-area:lastEighteen;
-    outline: 1px solid white;
+    border: 0.1vw solid white;    
+    outline: 0.1vw solid white;
 }
 .circle111 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin1 1.0s infinite linear;
-  -webkit-animation: spin1 1.0s infinite linear;    
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin1 1.0s infinite linear;    
 }
 
  .circle1 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin1 1.0s infinite linear;
-  -webkit-animation: spin1 1.0s infinite linear;    
 }
 
 .circle2 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin2 1.0s infinite linear;
-  -webkit-animation: spin2 1.0s infinite linear;
 }
-  
-
 .circle3 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin3 1.0s infinite linear;
-  -webkit-animation: spin3 1.0s infinite linear;
-
 }
 
 .circle4 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin4 1.0s infinite linear;
-  -webkit-animation: spin4 1.0s infinite linear;
 }
 .circle5 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin5 1.0s infinite linear;
-  -webkit-animation: spin5 1.0s infinite linear;
-
 }
 .circle6 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin6 1.0s infinite linear;
-  -webkit-animation: spin6 1.0s infinite linear;
 }
 .circle7 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin7 1.0s infinite linear;
-  -webkit-animation: spin7 1.0s infinite linear;
-
 }
 .circle8 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin8 1.0s infinite linear;
-  -webkit-animation: spin8 1.0s infinite linear;
 }
 .circle9 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin9 1.0s infinite linear;
-  -webkit-animation: spin9 1.0s infinite linear;
-
 }
 .circle10 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin10 1.0s infinite linear;
-  -webkit-animation: spin10 1.0s infinite linear;
 }
 .circle11 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin11 1.0s infinite linear;
-  -webkit-animation: spin11 1.0s infinite linear;
-
 }
 .circle12 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin12 1.0s infinite linear;
-  -webkit-animation: spin12 1.0s infinite linear;
 }
 .circle13 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
   animation: spin13 1.0s infinite linear;
-  -webkit-animation: spin13 1.0s infinite linear;
-
 }
 .circle14 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin14 1.0s infinite linear;
-  -webkit-animation: spin14 1.0s infinite linear;
 }
 .circle15 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin15 1.0s infinite linear;
-  -webkit-animation: spin15 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin15 1.0s infinite linear;    
 }
 .circle16 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin16 1.0s infinite linear;
-  -webkit-animation: spin16 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin16 1.0s infinite linear;;
 }
 .circle17 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin17 1.0s infinite linear;
-  -webkit-animation: spin17 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin17 1.0s infinite linear;    
 }
 .circle18 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin18 1.0s infinite linear;
-  -webkit-animation: spin18 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin18 1.0s infinite linear;;
 }
 .circle19 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin19 1.0s infinite linear;
-  -webkit-animation: spin19 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin19 1.0s infinite linear;    
 }
 .circle20 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin20 1.0s infinite linear;
-  -webkit-animation: spin20 1.0s infinite linear;  
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin20 1.0s infinite linear;;  
 }
  .circle21 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin21 1.0s infinite linear;
-  -webkit-animation: spin21 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin21 1.0s infinite linear;    
 } 
  .circle22 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
   animation: spin22 1.0s infinite linear;
-  -webkit-animation: spin2 1.0s infinite linear;
 } 
  .circle23 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin23 1.0s infinite linear;
-  -webkit-animation: spin23 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin23 1.0s infinite linear;    
 }
 .circle24 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin24 1.0s infinite linear;
-  -webkit-animation: spin24 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin24 1.0s infinite linear;;
 }
 .circle25 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin25 1.0s infinite linear;
-  -webkit-animation: spin25 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin25 1.0s infinite linear;    
 } 
 .circle26 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin26 1.0s infinite linear;
-  -webkit-animation: spin26 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin26 1.0s infinite linear;;
 }  
 .circle27 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin27 1.0s infinite linear;
-  -webkit-animation: spin27 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin27 1.0s infinite linear;    
 } 
 .circle28 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin28 1.0s infinite linear;
-  -webkit-animation: spin28 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin28 1.0s infinite linear;;
 }
 .circle29 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin29 1.0s infinite linear;
-  -webkit-animation: spin29 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin29 1.0s infinite linear;    
 }  
 .circle30 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin30 1.0s infinite linear;
-  -webkit-animation: spin30 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin30 1.0s infinite linear;;
 }
 .circle31 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin31 1.0s infinite linear;
-  -webkit-animation: spin31 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin31 1.0s infinite linear;    
 }
 .circle32 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin32 1.0s infinite linear;
-  -webkit-animation: spin32 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin32 1.0s infinite linear;;
 }
 .circle33 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin33 1.0s infinite linear;
-  -webkit-animation: spin33 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin33 1.0s infinite linear;    
 }
   .circle34 {
-      position: absolute;
-      top: 180px;
-      left: 200px;
-      width: 0px;
-      height: 15px; 
-      border-right: 10.52px solid transparent;
-      border-top: 100px solid black;
-      border-left: 10.52px solid transparent;
-      border-bottom: 100px solid transparent;
-      border-top-left-radius: 100px;
-      border-top-right-radius: 100px;
+    position: absolute;
+    bottom: 25vw;
+    left: 11.5vw;
+    width: 0vw;
+    height: 1vw;
+    border-right: 10.52px solid transparent;
+    border-top: 7vw solid black;
+    border-left: 10.52px solid transparent;
+    border-bottom: 7vw solid transparent;
+    border-top-left-radius: 10vw;
+    border-top-right-radius: 10vw;
       animation: spin34 1.0s infinite linear;
-      -webkit-animation: spin34 1.0s infinite linear;
+  ;
 }
 .circle35 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px;
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid red;
+  border-top: 7vw solid red;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin35 1.0s infinite linear;
-  -webkit-animation: spin35 1.0s infinite linear;
-
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin35 1.0s infinite linear;    
 }
 .circle36 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid black;
+  border-top: 7vw solid black;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin36 1.0s infinite linear;
-  -webkit-animation: spin36 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;
+  animation: spin36 1.0s infinite linear;;
 }
 .circle0 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid green;
+  border-top: 7vw solid green;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin37 1.0s infinite linear;
-  -webkit-animation: spin37 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin37 1.0s infinite linear;    
 }
 .circle00 {
   position: absolute;
-  top: 180px;
-  left: 200px;
-  width: 0px;
-  height: 15px; 
+  bottom: 25vw;
+  left: 11.5vw;
+  width: 0vw;
+  height: 1vw;
   border-right: 10.52px solid transparent;
-  border-top: 100px solid greenyellow;
+  border-top: 7vw solid greenyellow;
   border-left: 10.52px solid transparent;
-  border-bottom: 100px solid transparent;
-  border-top-left-radius: 100px;
-  border-top-right-radius: 100px;
-  animation: spin0 1.0s infinite linear;
-  -webkit-animation: spin00 1.0s infinite linear;
+  border-bottom: 7vw solid transparent;
+  border-top-left-radius: 10vw;
+  border-top-right-radius: 10vw;  
+  animation: spin00 1.0s infinite linear;    
 } 
 /* animations */
  
