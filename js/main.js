@@ -1,7 +1,5 @@
-//variables
-var totalAmountOfMoney, totalAmountofBet, bet, rand, li, seconds, bettingAmountArray, bettingNumberArray, totalBet,betObject, win, first21, second21, third21, totalProfit, currentBetMoney, numberArray, usedMoney;
+var totalAmountOfMoney, totalAmountofBet, bet, rand, li, seconds, bettingAmountArray, bettingNumberArray, totalBet,betObject, win, first21, second21, third21, totalProfit, currentBetMoney, numberArray, usedMoney, dollar;
 
-//cache
 var gameOver = document.getElementById('gameOver');
 var number = document.getElementById('number');
 var lists = document.getElementById('lists');
@@ -24,7 +22,6 @@ let chip5 = document.getElementById("chip5");
 var selectedNumb = document.getElementsByClassName('table')[0]
 let message = document.getElementById('message');
 
-//eventlistners
 newGame.addEventListener("click", init);
 reset.addEventListener("click", resets);
 selectedNumb.addEventListener("click", numberSelected);
@@ -35,48 +32,44 @@ chip4.addEventListener("click", chipSelected);
 chip5.addEventListener("click", chipSelected);
 
 
-win = 0;
 totalProfit = 0;
-totalBet = 0;
-usedMoney = 0;
+seconds = 11;
 
+setInterval(incrementSeconds, 1000);
 init();
 function init() {
     totalAmountOfMoney = 1000;
     betObject = {};
     renderInit();
-    gameOver.style.display = 'none'
 }
 
-function resets(){  
-    totalAmountOfMoney = totalBet + totalAmountOfMoney;
+function resets(){ 
+    totalAmountOfMoney= totalBet + totalAmountOfMoney;
     totalBet = 0;
     betObject = {}
     renderInit();
 }
 
-//renders wallet
 function renderInit() {
-
     bet2[0].textContent = totalAmountofBet;
     bet1[0].textContent = bet;
     money1[0].textContent = totalAmountOfMoney;
     message.textContent = 'Your profit is $' + totalProfit;
+    gameOver.style.display = 'none'
+
 }
 
 function payOut (){
     totalProfit = 0;
     win = 0;
     usedMoney = 0;
-    numberArray = ['1','2','3','4','5',"6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36"]
+    numberArray = ['0','1','2','3','4','5',"6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36"]
 
-    if((betObject['even'] !== undefined || betObject['red'] !== undefined) && rand % 2 === 0 && rand !== 0) {
-        win += betObject['even'] * 2
-        win += betObject['red'] * 2;
+    if((betObject['even'] !== undefined || betObject['red'] !== undefined) && (rand % 2 === 0 && rand !== 0)) {
+        win += betObject['even'] * 2 || betObject['red'] * 2;
     }
-    if((betObject['odd'] !== undefined || betObject['black'] !== undefined) && rand % 2 === 0) {
-        win += betObject['odd'] * 2;
-        win += betObject['black'] * 2;
+    if((betObject['odd'] !== undefined || betObject['black'] !== undefined) && rand % 2 === 0 && rand !== 0) {
+        win += betObject['odd'] * 2 || betObject['black'] * 2;
     }
     if(betObject['1st 12'] !== undefined && (rand > 0 && rand < 13)) {
         win += betObject['1st 12'] * 3;
@@ -122,6 +115,9 @@ function payOut (){
         usedMoney += Number(Object.values(betObject)[i])
     }
     totalProfit = win - usedMoney;
+    console.log("totalAmountofMoney", totalAmountOfMoney)
+    console.log("totalprofit", totalProfit)
+    console.log("win", win)
     renderInit();
 }
 // chip1.textContent;
@@ -140,6 +136,7 @@ function generateNumber() {
 
 //renders picks
 function numberSelected() {
+    totalBet = 0;
      if(totalAmountOfMoney - Number(selectedChip) >= 0 && event.target.textContent.length < 8) {
         if(betObject[event.target.textContent] === undefined) {
             betObject[event.target.textContent] = Number(selectedChip);
@@ -147,7 +144,10 @@ function numberSelected() {
             betObject[event.target.textContent] += Number(selectedChip)
         }
         totalAmountOfMoney -= Number(selectedChip);
-        totalBet += Number(selectedChip);
+
+        for(let i = 0; i < Object.values(betObject).length; i++) {
+            totalBet += Number(Object.values(betObject)[i])
+        }
     } else {
         bettingAmountArray;
         bettingNumberArray;
@@ -172,10 +172,14 @@ function betRender() {
 }  
 
 //Roulette bet time function
-seconds = 11;
-setInterval(incrementSeconds, 1000);
+
+
 function incrementSeconds() {
     seconds -= 1;
+    totalBet = 0;
+    win = 0;
+  
+    usedMoney = 0;
     if(seconds === -1) {
         generateNumber();
         seconds = 11;
@@ -187,12 +191,21 @@ function incrementSeconds() {
     {
         renderGameOver();
     }
+    else if(seconds === 11 && totalAmountOfMoney > 50000)
+    {
+        renderWin();
+    }
     renderClock();
 }
 function renderGameOver () {
     gameOver.style.display = 'block'
-    gameOver.textContent = 'Not enough money, click on Game Over button on right top';
+    gameOver.textContent = "BRING MORE MONEY: click on 'New Game' button on right top corner";
    reset.disabled = true;
+}
+function renderWin() {
+    gameOver.style.display = 'block'
+    gameOver.textContent = "You won the game: click on 'New Game' button on right top corner";
+    reset.disabled = true;
 }
 //renders latest states of randomly generated numbers
 function renderNumber() {
