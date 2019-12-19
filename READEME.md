@@ -12,7 +12,7 @@ The ball eventually loses momentum, passes through an area of deflectors, and fa
 The winnings are then paid to anyone who has placed a successful bet.
 
 ☐ Screenshot(s): Images of your actual game.
-![https://github.com/ptds106/project_1/blob/master/img/Roulette_Screenshot.PNG?raw=true]
+!(https://github.com/ptds106/project_1/blob/master/img/Roulette_Screenshot.PNG?raw=true)
 
 ☐ Technologies Used:
 - JavaScript
