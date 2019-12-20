@@ -10,8 +10,10 @@ whether the number is odd or even, or if the numbers are high (19–36) or low (
 2. Pick a chip to determine how much you want to bet per spin
 3. pick numbers to bet
 4. wait for the count down.
+
 -win-
 - You need to earn $50,000 to end game and asks for new game.
+
 -Lose-
 - If you lose money lesser than $10, game ends and asks for new game.
 
