@@ -119,9 +119,6 @@ function payOut() {
         usedMoney += Number(Object.values(betObject)[i])
     }
     totalProfit = win - usedMoney;
-    console.log("totalAmountofMoney", totalAmountOfMoney)
-    console.log("totalprofit", totalProfit)
-    console.log("win", win)
     renderInit();
 }
 function chipSelected() {
