@@ -22,7 +22,8 @@ whether the number is odd or even, or if the numbers are high (19–36) or low (
 - JavaScript
 - HTML
 - CSS
-<<<<<<< HEAD
+
+
 ☐ Game Site:
 https://gallant-heyrovsky-190641.netlify.com/
 
